@@ -87,6 +87,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("flight")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Flights
@@ -108,6 +109,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("hotels")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Hotels
@@ -129,6 +131,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("bus")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Bus
@@ -150,6 +153,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("event")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Events
@@ -171,6 +175,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("tours")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Tour Packages
@@ -192,6 +197,7 @@ const Home = () => {
                 borderRadius={5}
                 bg="white"
                 onClick={() => handleNavigation("offers")}
+                style={{ cursor: "pointer" }}
               >
                 <Badge variant="subtle" colorScheme="blue">
                   Offers
